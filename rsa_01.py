@@ -1,6 +1,6 @@
 from Crypto.PublicKey import RSA
 
-with open('key.pem', 'r') as f:
+with open('publickey2.pem', 'r') as f:
     key = f.read()
     pubkey = RSA.import_key(key)
 
